@@ -6,7 +6,7 @@ class Node:
         self.left = None
         self.right = None
     
-def levelOrder(root):
+def level_order(root):
     if not root:
         return []
     result = []
